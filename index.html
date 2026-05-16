@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>طور مشروعك | Elevate Your Brand</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="loader-circle"></div>
+      <div class="loader-text">طور مشروعك</div>
+    </div>
+  </div>
+
+  <!-- Page Transition Overlay -->
+  <div class="page-transition" id="pageTransition"></div>
+
+  <!-- Cursor Follower -->
+  <div class="cursor-follower" id="cursorFollower"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-label">طور مشروعك</span>
+        <p class="brand-subtitle">Professional Website Design for Growing Businesses</p>
+      </div>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Build your presence. Win more clients.</span>
+          <h1>Professional website design that turns visitors into loyal customers.</h1>
+          <p>We design modern, responsive websites that show your work, attract clients, and grow your business with confidence.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="demoButton">See live transformations</button>
+            <a class="btn btn-secondary" href="#contact">Get a quote</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-card">
+            <div class="visual-frame">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Modern web design" />
+              <div class="visual-overlay"></div>
+            </div>
+            <div class="visual-badge">Interactive, fast, elegant</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span>What we offer</span>
+          <h2>From concept to launch, your project becomes a premium digital experience.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Custom website design</h3>
+            <p>Beautiful, modern layouts built for your brand, with a focus on conversion and trust.</p>
+          </article>
+          <article class="service-card">
+            <h3>Project showcase</h3>
+            <p>Display your portfolio clearly, highlight success stories, and impress new clients.</p>
+          </article>
+          <article class="service-card">
+            <h3>Fast launches</h3>
+            <p>Quick turnaround and professional polish, from staging to a real online presence.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <span>Portfolio</span>
+          <h2>See the difference: polished sites that win attention.</h2>
+        </div>
+        <div class="portfolio-panel">
+          <div class="portfolio-details">
+            <h3 id="caseTitle">Elegant brand launch</h3>
+            <p id="caseDescription">A sleek professional website designed to introduce a new service, build credibility, and attract the first clients.</p>
+            <div class="portfolio-buttons">
+              <button class="btn btn-tertiary active" data-case="case1">Option 1</button>
+              <button class="btn btn-tertiary" data-case="case2">Option 2</button>
+              <button class="btn btn-tertiary" data-case="case3">Option 3</button>
+            </div>
+          </div>
+          <div class="portfolio-image" id="portfolioImage">
+            <img src="https://images.unsplash.com/photo-1505682634904-d7c4b1f3c44a?auto=format&fit=crop&w=900&q=80" alt="Project showcase" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container testimonial-grid">
+        <div class="testimonial-card">
+          <p>"The new website helped us stand out and close new deals faster. The process was simple and the final result is stunning."</p>
+          <strong>Ahmed, Business Owner</strong>
+        </div>
+        <div class="testimonial-card">
+          <p>“Professional, fast, and creative. Our project feels more modern and our customers love the upgrades.”</p>
+          <strong>Sarah, Startup Founder</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-panel">
+        <div>
+          <span>Start your project</span>
+          <h2>Ready to transform your business with a premium website?</h2>
+          <p>Contact us to discuss your idea, show your customers your value, and launch a website that converts.</p>
+        </div>
+        <a class="btn btn-primary" href="mailto:slomasloma309@gmail.com">Email us now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>طور مشروعك — Professional website design for ambitious brands.</p>
+      <p>© 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
